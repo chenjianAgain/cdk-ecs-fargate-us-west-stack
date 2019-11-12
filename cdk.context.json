@@ -1,0 +1,51 @@
+{
+  "@aws-cdk/core:enableStackNameDuplicates": "true",
+  "vpc-provider:account=374801192098:filter.isDefault=false:region=us-west-2:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-0f74e1521f1ebbd38",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "Private",
+        "type": "Private",
+        "subnets": [
+          {
+            "subnetId": "subnet-05aad0801fdd4e37f",
+            "availabilityZone": "us-west-2a",
+            "routeTableId": "rtb-023edd79cb88c5e1d"
+          },
+          {
+            "subnetId": "subnet-0eede7d75d7cb19b8",
+            "availabilityZone": "us-west-2b",
+            "routeTableId": "rtb-0a37bf675be7bd60c"
+          },
+          {
+            "subnetId": "subnet-0100ac2aeecae74e6",
+            "availabilityZone": "us-west-2c",
+            "routeTableId": "rtb-0c1a6211ca92b283a"
+          }
+        ]
+      },
+      {
+        "name": "Public",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-0455dd8617fbdbea6",
+            "availabilityZone": "us-west-2a",
+            "routeTableId": "rtb-0f0734f888ab9cb8f"
+          },
+          {
+            "subnetId": "subnet-075fcfed860400fd5",
+            "availabilityZone": "us-west-2b",
+            "routeTableId": "rtb-0f2b70b7632f5a6aa"
+          },
+          {
+            "subnetId": "subnet-0c0f69cf657dd3f93",
+            "availabilityZone": "us-west-2c",
+            "routeTableId": "rtb-0298d5ab2d7df2126"
+          }
+        ]
+      }
+    ]
+  }
+}
